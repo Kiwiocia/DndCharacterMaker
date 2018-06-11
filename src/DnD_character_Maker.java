@@ -1384,7 +1384,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
         classSkills6 = "Persuation";
         classHpTOT = 8;
         setComboBox();
-    }
+    }//
 
     public void cleric() {
     }
