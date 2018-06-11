@@ -244,7 +244,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28)
                 .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(752, Short.MAX_VALUE))
+                .addContainerGap(769, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("The Cover", jPanel4);
@@ -285,7 +285,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 515, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(494, Short.MAX_VALUE))
+                .addContainerGap(511, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Intro", jPanel1);
@@ -325,7 +325,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 741, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(322, Short.MAX_VALUE))
+                .addContainerGap(339, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Intro 2", jPanel3);
@@ -361,7 +361,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(jTextField34, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 739, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(315, Short.MAX_VALUE))
+                .addContainerGap(332, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Intro Spell Slots", jPanel10);
@@ -464,7 +464,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 266, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(526, Short.MAX_VALUE))
+                .addContainerGap(543, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Terms to know", jPanel2);
@@ -489,7 +489,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 642, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(434, Short.MAX_VALUE))
+                .addContainerGap(451, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("How this works", jPanel6);
@@ -574,7 +574,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(classChoiceButton, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(classDone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(411, Short.MAX_VALUE))
+                .addContainerGap(428, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Classes", jPanel7);
@@ -719,7 +719,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                     .addComponent(classInte, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(39, 39, 39)
                 .addComponent(classAbSc)
-                .addContainerGap(234, Short.MAX_VALUE))
+                .addContainerGap(251, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("First Thing is First though", jPanel11);
@@ -776,6 +776,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
         classTools.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
         classTProf.setFont(new java.awt.Font("Adobe Caslon Pro", 0, 14)); // NOI18N
+        classTProf.setText("badmeme");
 
         jTextField45.setEditable(false);
         jTextField45.setFont(new java.awt.Font("Adobe Caslon Pro", 0, 14)); // NOI18N
@@ -798,42 +799,36 @@ public class DnD_character_Maker extends javax.swing.JFrame {
             }
         });
 
-        classSkill1.setText("jCheckBox1");
         classSkill1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 classSkill1ActionPerformed(evt);
             }
         });
 
-        classSkill2.setText("jCheckBox2");
         classSkill2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 classSkill2ActionPerformed(evt);
             }
         });
 
-        classSkill3.setText("jCheckBox3");
         classSkill3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 classSkill3ActionPerformed(evt);
             }
         });
 
-        classSkill4.setText("jCheckBox4");
         classSkill4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 classSkill4ActionPerformed(evt);
             }
         });
 
-        classSkill5.setText("jCheckBox5");
         classSkill5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 classSkill5ActionPerformed(evt);
             }
         });
 
-        classSkill6.setText("jCheckBox6");
         classSkill6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 classSkill6ActionPerformed(evt);
@@ -873,8 +868,13 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                                 .addGap(262, 262, 262)
                                 .addComponent(jTextField28, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addComponent(classTProf, javax.swing.GroupLayout.PREFERRED_SIZE, 347, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(35, 35, 35)
+                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel9Layout.createSequentialGroup()
+                                        .addComponent(classTProf, javax.swing.GroupLayout.PREFERRED_SIZE, 347, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(35, 35, 35))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
+                                        .addComponent(classSkill1)
+                                        .addGap(299, 299, 299)))
                                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(classSV, javax.swing.GroupLayout.PREFERRED_SIZE, 321, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(jPanel9Layout.createSequentialGroup()
@@ -889,11 +889,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                             .addGroup(jPanel9Layout.createSequentialGroup()
                                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(classSkill2)
-                                    .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(jTextField29, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGroup(jPanel9Layout.createSequentialGroup()
-                                            .addGap(10, 10, 10)
-                                            .addComponent(classSkill1)))
+                                    .addComponent(jTextField29, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(classSkill3)
                                     .addComponent(classSkill4)
                                     .addComponent(classSkill5)
@@ -964,7 +960,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(reset)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTextField51, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(609, Short.MAX_VALUE))
+                .addContainerGap(636, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Classes part 2", jPanel9);
@@ -1034,7 +1030,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(jButton1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(raceOutput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(197, Short.MAX_VALUE))
+                .addContainerGap(214, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Races", jPanel12);
@@ -1047,7 +1043,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
         );
         jPanel13Layout.setVerticalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1087, Short.MAX_VALUE)
+            .addGap(0, 1104, Short.MAX_VALUE)
         );
 
         jTabbedPane2.addTab("Pick your race", jPanel13);
@@ -1284,7 +1280,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(jTextField21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTextField22, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(470, Short.MAX_VALUE))
+                .addContainerGap(487, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Your Chacater So Far", jPanel8);
@@ -1342,25 +1338,24 @@ public class DnD_character_Maker extends javax.swing.JFrame {
         classRWeapon.setModel(new javax.swing.DefaultComboBoxModel(new String[]{classRWeapon1, classRWeapon2, classRWeapon3}));
         classEquip.setModel(new javax.swing.DefaultComboBoxModel(new String[]{classEquip1, classEquip2, classEquip3}));
         classSV.setText(classSV1);
-        classTProf.setText(classTProff);
     }
 
     public void barbarian() {
         classWeapon1 = "Greataxe";
         classWeapon2 = "Maul";
-        classWeapon3 = "Greasword";
+        classWeapon3 = "Greatsword";
         classRWeapon1 = "2 handaxes";
         classRWeapon2 = "Dagger";
         classArmor1 = "N/A";
-        classTools1 = "None";
+        classTProf.setText("None");
         classSV1 = "Strength and Constitution";
         classEquip1 = "Explorer's Pack and 4 Javlins";
-        classSkills1 = "Animal Handling";
-        classSkills2 = "Athletics";
-        classSkills3 = "Intimidation";
-        classSkills4 = "Nature";
-        classSkills5 = "Perception";
-        classSkills6 = "Survival";
+        classSkill1.setText("Animal Handling");
+        classSkill2.setText("Athletics");
+        classSkill3.setText("Intimidation");
+        classSkill4.setText("Nature");
+        classSkill5.setText("Perception");
+        classSkill6.setText("Survival");
         setComboBox();
         classHpTOT=12;
     }
@@ -1369,24 +1364,26 @@ public class DnD_character_Maker extends javax.swing.JFrame {
         classRweapons.setText("Instuments");
         classWeapon1 = "Rapier";
         classWeapon2 = "LongSword";
+        classWeapon3 = "";
         classRWeapon1 = "lute";
         classRWeapon2 = "any instrument";
         classArmor1 = "Leather";
-        classTools1 = "3 instruments of your chocie";
+        classTProf.setText("3 instruments of your chocie");
         classSV1 = "Dexterity and Charisma";
         classEquip1 = "Diplomat's pack";
         classEquip2 = "Entertainer's Pack";
-        classSkills1 = "Slight of Hand";
-        classSkills2 = "Sneak";
-        classSkills3 = "Acrobatics";
-        classSkills4 = "Deception";
-        classSkills5 = "Preformance";
-        classSkills6 = "Persuation";
+        classSkill1.setText("Slight of Hand");
+        classSkill2.setText("Sneak");
+        classSkill3.setText("Acrobatics");
+        classSkill4.setText("Deception");
+        classSkill5.setText("Preformance");
+        classSkill6.setText("Persuation");
         classHpTOT = 8;
         setComboBox();
-    }//
+    }
 
     public void cleric() {
+        classWeapon1 = "Warhammer";
     }
 
     public void druid() {
