@@ -131,7 +131,7 @@
                       <Component id="jTextField8" min="-2" pref="61" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                       <Component id="jTextField9" min="-2" pref="48" max="-2" attributes="0"/>
-                      <EmptySpace pref="786" max="32767" attributes="0"/>
+                      <EmptySpace pref="803" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -205,7 +205,7 @@
                       <Component id="jTextField1" min="-2" pref="47" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jScrollPane1" min="-2" pref="515" max="-2" attributes="0"/>
-                      <EmptySpace pref="528" max="32767" attributes="0"/>
+                      <EmptySpace pref="545" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -291,7 +291,7 @@
                       <Component id="jTextField7" min="-2" pref="35" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jScrollPane4" min="-2" pref="741" max="-2" attributes="0"/>
-                      <EmptySpace pref="356" max="32767" attributes="0"/>
+                      <EmptySpace pref="373" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -369,7 +369,7 @@
                       <Component id="jTextField34" min="-2" pref="39" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jScrollPane7" min="-2" pref="739" max="-2" attributes="0"/>
-                      <EmptySpace pref="349" max="32767" attributes="0"/>
+                      <EmptySpace pref="366" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -476,7 +476,7 @@
                       <Component id="jScrollPane2" min="-2" pref="266" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jTextField10" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="560" max="32767" attributes="0"/>
+                      <EmptySpace pref="577" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -651,7 +651,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jScrollPane5" min="-2" pref="642" max="-2" attributes="0"/>
-                              <EmptySpace pref="468" max="32767" attributes="0"/>
+                              <EmptySpace pref="485" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -709,7 +709,7 @@
                                           <Component id="classChoice" max="32767" attributes="0"/>
                                           <Component id="classChoiceButton" max="32767" attributes="0"/>
                                       </Group>
-                                      <EmptySpace min="0" pref="371" max="32767" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>
@@ -717,7 +717,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="314" max="-2" attributes="0"/>
                               <Component id="classDone" min="-2" pref="175" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
+                              <EmptySpace pref="358" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -736,7 +736,7 @@
                               <Component id="classChoiceButton" min="-2" pref="23" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="classDone" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="445" max="32767" attributes="0"/>
+                              <EmptySpace pref="462" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -945,7 +945,7 @@
                               </Group>
                               <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
                               <Component id="classAbSc" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="268" max="32767" attributes="0"/>
+                              <EmptySpace pref="285" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1213,7 +1213,7 @@
                               <Component id="reset" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jTextField51" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="651" max="32767" attributes="0"/>
+                              <EmptySpace pref="668" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1465,7 +1465,7 @@
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Group type="102" attributes="0">
                                               <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                              <Component id="jScrollPane9" max="32767" attributes="0"/>
+                                              <Component id="jScrollPane9" pref="817" max="32767" attributes="0"/>
                                           </Group>
                                           <Group type="102" attributes="0">
                                               <Component id="jTextField24" min="-2" pref="139" max="-2" attributes="0"/>
@@ -1473,11 +1473,26 @@
                                           </Group>
                                       </Group>
                                   </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="340" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jTextField52" max="32767" attributes="0"/>
-                                          <Component id="raceChoice" pref="105" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="340" max="-2" attributes="0"/>
+                                              <Component id="raceChoice" min="-2" pref="105" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="183" max="-2" attributes="0"/>
+                                              <Component id="jTextField52" min="-2" pref="393" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="charaName" min="-2" pref="138" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="324" max="-2" attributes="0"/>
+                                                  <Component id="jButton1" min="-2" pref="138" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
                                       </Group>
                                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                   </Group>
@@ -1485,15 +1500,9 @@
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="324" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                      <Component id="raceOutput" min="-2" pref="119" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Component id="jButton1" min="-2" pref="138" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace pref="385" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="307" max="-2" attributes="0"/>
+                              <Component id="raceOutput" min="-2" pref="170" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1504,15 +1513,17 @@
                               <Component id="jTextField24" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="jScrollPane9" min="-2" pref="644" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
                               <Component id="jTextField52" min="-2" pref="30" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="charaName" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="raceChoice" min="-2" pref="30" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jButton1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="raceOutput" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="231" max="32767" attributes="0"/>
+                              <EmptySpace pref="207" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1537,14 +1548,14 @@
                               <Font name="Adobe Caslon Pro" size="14" style="0"/>
                             </Property>
                             <Property name="rows" type="int" value="5"/>
-                            <Property name="text" type="java.lang.String" value="&#xa;&#x9;Dwarves : Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand&#xa;&#x9;&#x9;well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly&#xa;&#x9;&#x9;two feet taller. &#xa;&#x9;&#x9;Race Bonuses: Age:400 years, +2 to constitution, and +1 to wisdom, dakr vision (see in the dark), poison &#xa;&#x9;&#x9;&#x9;resistance, proficeint in "/>
+                            <Property name="text" type="java.lang.String" value="&#xa;&#x9;Dragonborn :Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with &#xa;&#x9;&#x9;fearful incom prehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched &#xa;&#x9;&#x9;from dragon eggs as a unique race, com bining the best attributes of dragons and humanoids.&#xa;&#x9;&#x9;Race Bonuses : Age: 80 years, +2 to Strength, and +1 to Charisma, fire breath, you know common and draconic&#xa;&#x9;&#x9;&#x9; You also have resistnace to fire&#xa;&#xa;&#x9;Dwarves : Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand&#xa;&#x9;&#x9;well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly&#xa;&#x9;&#x9;two feet taller. &#xa;&#x9;&#x9;Race Bonuses: Age:400 years, +2 to constitution, and +1 to wisdom , dark vision (see in the dark), poison &#xa;&#x9;&#x9;&#x9;resistance, proficeint in smithing tools, you know common and dwarvish&#xa;&#xa;&#x9;Elves: Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They are slightly shorter&#xa;&#x9;&#x9;than humans on average, ranging from well under 5 feet tall to just over 6 feet. They are m ore slender than&#xa;&#x9;&#x9;humans, weighing only 100 to 145 pounds.&#xa;&#x9;&#x9;Race Bonuses:  Age: up to 700 years, +2 to Dex and +1 to Intelligence&#xa;&#x9;&#xa;&#x9;"/>
                           </Properties>
                         </Component>
                       </SubComponents>
                     </Container>
                     <Component class="javax.swing.JTextField" name="jTextField52">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Pick Your Race"/>
+                        <Property name="text" type="java.lang.String" value="Pick Your Race, and while we&apos;re at it, pick a name for your character"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JComboBox" name="raceChoice">
@@ -1573,6 +1584,8 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="raceOutput">
                     </Component>
+                    <Component class="javax.swing.JTextField" name="charaName">
+                    </Component>
                   </SubComponents>
                 </Container>
                 <Container class="javax.swing.JPanel" name="jPanel13">
@@ -1592,7 +1605,7 @@
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="1121" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="1138" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
@@ -1800,7 +1813,7 @@
                               <Component id="jTextField21" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jTextField22" min="-2" pref="42" max="-2" attributes="0"/>
-                              <EmptySpace pref="504" max="32767" attributes="0"/>
+                              <EmptySpace pref="521" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1906,7 +1919,7 @@
                     </Component>
                     <Component class="javax.swing.JTextField" name="jTextField23">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Armor"/>
+                        <Property name="text" type="java.lang.String" value="Armor class"/>
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="charArmor">
@@ -1923,6 +1936,9 @@
                       </Events>
                     </Component>
                     <Component class="javax.swing.JTextField" name="classSTR">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="jTextField42">
                       <Properties>
@@ -1930,6 +1946,9 @@
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="classDEX">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="jTextField44">
                       <Properties>
@@ -1937,6 +1956,9 @@
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="classCON">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="jTextField46">
                       <Properties>
@@ -1944,6 +1966,9 @@
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="classINT">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="jTextField48">
                       <Properties>
@@ -1951,6 +1976,9 @@
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="classWIS">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="jTextField50">
                       <Properties>
@@ -1958,6 +1986,9 @@
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="classCHA">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="jTextField43">
                       <Properties>
