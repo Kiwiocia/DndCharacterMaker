@@ -42,7 +42,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
     int classInt;
     int classWis;
     int classCha;
-    int charAC;
+    int charAC = 10;
 
     /**
      * Creates new form DnD_character_Maker
@@ -256,7 +256,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(jTextField8, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28)
                 .addComponent(jTextField9, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(820, Short.MAX_VALUE))
+                .addContainerGap(837, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("The Cover", jPanel4);
@@ -297,7 +297,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 515, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(562, Short.MAX_VALUE))
+                .addContainerGap(579, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Intro", jPanel1);
@@ -337,7 +337,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 741, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(390, Short.MAX_VALUE))
+                .addContainerGap(407, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Intro 2", jPanel3);
@@ -373,7 +373,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(jTextField34, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 739, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(383, Short.MAX_VALUE))
+                .addContainerGap(400, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Intro Spell Slots", jPanel10);
@@ -476,7 +476,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 266, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTextField10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(594, Short.MAX_VALUE))
+                .addContainerGap(611, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Terms to know", jPanel2);
@@ -501,7 +501,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 642, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(502, Short.MAX_VALUE))
+                .addContainerGap(519, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("How this works", jPanel6);
@@ -586,7 +586,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(classChoiceButton, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(classDone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(479, Short.MAX_VALUE))
+                .addContainerGap(496, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Classes", jPanel7);
@@ -731,7 +731,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                     .addComponent(classInte, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(39, 39, 39)
                 .addComponent(classAbSc)
-                .addContainerGap(302, Short.MAX_VALUE))
+                .addContainerGap(319, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("First Thing is First though", jPanel11);
@@ -968,7 +968,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(reset)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTextField51, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(685, Short.MAX_VALUE))
+                .addContainerGap(702, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Classes part 2", jPanel9);
@@ -1046,7 +1046,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(jButton1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(raceOutput, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(224, Short.MAX_VALUE))
+                .addContainerGap(241, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Races", jPanel12);
@@ -1059,7 +1059,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
         );
         jPanel13Layout.setVerticalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1155, Short.MAX_VALUE)
+            .addGap(0, 1172, Short.MAX_VALUE)
         );
 
         jTabbedPane2.addTab("Pick your race", jPanel13);
@@ -1161,7 +1161,6 @@ public class DnD_character_Maker extends javax.swing.JFrame {
         jTextField53.setText("Languages");
 
         charLang.setEditable(false);
-        charLang.setText("Common, ");
 
         jTextField54.setText("Speed");
 
@@ -1335,7 +1334,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
                 .addComponent(jTextField21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTextField22, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(538, Short.MAX_VALUE))
+                .addContainerGap(555, Short.MAX_VALUE))
         );
 
         jTabbedPane2.addTab("Your Chacater So Far", jPanel8);
@@ -1376,7 +1375,15 @@ public class DnD_character_Maker extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     public void classABSC() {
-        
+    }
+
+    public void charAC() {
+        if (classArmor.getSelectedItem().toString().equals("Scale Armor")) {
+            charAC = 16;
+        }
+        if (classArmor.getSelectedItem().toString() == "Leather") {
+            charAC = +1 + classDex;
+        }
     }
 
     public void classSkillDisable() {
@@ -1388,6 +1395,9 @@ public class DnD_character_Maker extends javax.swing.JFrame {
             classSkill5.setEnabled(false);
             classSkill6.setEnabled(false);
         }
+    }
+    public void charSetUp(){
+        
     }
 
     public void setComboBox() {
@@ -1424,6 +1434,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
         classSkills6 = ("Survival");
         setComboBox();
         classHpTOT = 12;
+        charAC = charAC+classCon;
     }
 
     public void bard() {
@@ -1454,7 +1465,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
         classWeapon3 = "";
         classRWeapon1 = "Light Crossbow and 20 bolts";
         classRWeapon2 = "dagger";
-        classArmor1 = "Scale mail";
+        classArmor1 = "Scale Armor";
         classArmor2 = "leather armor";
         classArmor3 = "Scale Armor";
         classTProff = ("None");
@@ -1537,16 +1548,26 @@ public class DnD_character_Maker extends javax.swing.JFrame {
 
     public void wizzard() {
     }
+    //
+    ////////////////////////////////////
+    //
+    //
+    //
+    //
+    // THIS IS JUST A BULWARK ZONE SO I KNOW WHEN MY RACE METHODS ARE SEPERATED FROM MY CLASS METHODS//////////////////////////////
+    //
+    //
+    //
+    //
+    ///////////////////////////////////
+    // 
 
-    // THIS IS JUST A BUFFER ZONE SO I KNOW WHEN MY RACE METHODS ARE SEPERATED FROM MY CLASS METHODS////////////////////////////// 
     public void dragonborn() {
         classStr = classStr + 2;
         classCha = classCha + 1;
         charLang.setText("common, draconic");
         charSpeed.setText("30ft");
-        if (classArmor.getSelectedItem().toString() == "Scale mail" || classArmor.getSelectedItem().toString() == "Scale Armor"){
-            charAC= 10;
-        }
+        charAC();
     }
 
     public void dwarf() {
@@ -1554,6 +1575,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
         classWis = classWis + 1;
         charLang.setText("common, dwarvish");
         charSpeed.setText("25ft");
+        charAC();
     }
 
     public void elf() {
@@ -1601,43 +1623,35 @@ public class DnD_character_Maker extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField21ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        if (raceChoice.getSelectedItem().toString().equals("Dragonborn"));
-        {
+        if (raceChoice.getSelectedItem().toString().equals("Dragonborn")) {
             dragonborn();
         }
-        if (raceChoice.getSelectedItem().toString().equals("Dwarf"));
-        {
+        if (raceChoice.getSelectedItem().toString().equals("Dwarf")) {
             dwarf();
         }
-        if (raceChoice.getSelectedItem().toString().equals("Elf"));
-        {
+        if (raceChoice.getSelectedItem().toString().equals("Elf")) {
             elf();
         }
-        if (raceChoice.getSelectedItem().toString().equals("Halfing"));
-        {
+        if (raceChoice.getSelectedItem().toString().equals("Halfing")) {
             halfing();
         }
-        if (raceChoice.getSelectedItem().toString().equals("Human"));
-        {
+        if (raceChoice.getSelectedItem().toString().equals("Human")) {
             human();
         }
-        if (raceChoice.getSelectedItem().toString().equals("HalfOrc"));
-        {
+        if (raceChoice.getSelectedItem().toString().equals("HalfOrc")) {
             halfOrc();
         }
-        if (raceChoice.getSelectedItem().toString().equals("Gnome"));
-        {
+        if (raceChoice.getSelectedItem().toString().equals("Gnome")) {
             gnome();
         }
-        if (raceChoice.getSelectedItem().toString().equals("Tiefling"));
-        {
+        if (raceChoice.getSelectedItem().toString().equals("Tiefling")) {
             tiefling();
         }
         raceOutput.setText("Done, Check Race part 2 now");
         charName.setText(charaName.getText());
         charClass.setText(classChoice.getSelectedItem().toString());
         charWeapon.setText(classWeapon.getSelectedItem().toString());
-        
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void resetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_resetActionPerformed
@@ -1720,6 +1734,8 @@ public class DnD_character_Maker extends javax.swing.JFrame {
         int classInt = Integer.parseInt(classInte.getText());
         int classWis = Integer.parseInt(classWisd.getText());
         int classCha = Integer.parseInt(classChar.getText());
+        int strMod = (classStr - 10)/2;
+        System.out.println(strMod);
         classStre.setEnabled(false);
         classDext.setEnabled(false);
         classCons.setEnabled(false);
