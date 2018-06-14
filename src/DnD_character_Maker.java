@@ -1545,7 +1545,7 @@ public class DnD_character_Maker extends javax.swing.JFrame {
         charLang.setText("common, draconic");
         charSpeed.setText("30ft");
         if (classArmor.getSelectedItem().toString() == "Scale mail" || classArmor.getSelectedItem().toString() == "Scale Armor"){
-            charAC
+            charAC= 10;
         }
     }
 
