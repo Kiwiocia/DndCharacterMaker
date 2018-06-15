@@ -131,7 +131,7 @@
                       <Component id="jTextField8" min="-2" pref="61" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                       <Component id="jTextField9" min="-2" pref="48" max="-2" attributes="0"/>
-                      <EmptySpace pref="837" max="32767" attributes="0"/>
+                      <EmptySpace pref="871" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -205,7 +205,7 @@
                       <Component id="jTextField1" min="-2" pref="47" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jScrollPane1" min="-2" pref="515" max="-2" attributes="0"/>
-                      <EmptySpace pref="579" max="32767" attributes="0"/>
+                      <EmptySpace pref="613" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -291,7 +291,7 @@
                       <Component id="jTextField7" min="-2" pref="35" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jScrollPane4" min="-2" pref="741" max="-2" attributes="0"/>
-                      <EmptySpace pref="407" max="32767" attributes="0"/>
+                      <EmptySpace pref="441" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -369,7 +369,7 @@
                       <Component id="jTextField34" min="-2" pref="39" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="jScrollPane7" min="-2" pref="739" max="-2" attributes="0"/>
-                      <EmptySpace pref="400" max="32767" attributes="0"/>
+                      <EmptySpace pref="434" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -476,7 +476,7 @@
                       <Component id="jScrollPane2" min="-2" pref="266" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jTextField10" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="611" max="32767" attributes="0"/>
+                      <EmptySpace pref="645" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -618,7 +618,7 @@
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jTabbedPane2" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jTabbedPane2" alignment="1" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
@@ -651,7 +651,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jScrollPane5" min="-2" pref="642" max="-2" attributes="0"/>
-                              <EmptySpace pref="519" max="32767" attributes="0"/>
+                              <EmptySpace pref="553" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -736,7 +736,7 @@
                               <Component id="classChoiceButton" min="-2" pref="23" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="classDone" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="496" max="32767" attributes="0"/>
+                              <EmptySpace pref="530" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -945,7 +945,7 @@
                               </Group>
                               <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
                               <Component id="classAbSc" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="319" max="32767" attributes="0"/>
+                              <EmptySpace pref="353" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1213,7 +1213,7 @@
                               <Component id="reset" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jTextField51" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="702" max="32767" attributes="0"/>
+                              <EmptySpace pref="736" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1523,7 +1523,7 @@
                               <Component id="jButton1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="raceOutput" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="241" max="32767" attributes="0"/>
+                              <EmptySpace pref="275" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -1605,7 +1605,7 @@
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <EmptySpace min="0" pref="1172" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="1206" max="32767" attributes="0"/>
                       </Group>
                     </DimensionLayout>
                   </Layout>
@@ -1622,141 +1622,191 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                      <Component id="charSpells" alignment="1" min="-2" pref="772" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jTextField16" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jTextField19" alignment="0" min="-2" pref="91" max="-2" attributes="0"/>
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="jTextField41" alignment="0" min="-2" pref="77" max="-2" attributes="0"/>
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                                      <Component id="classSTR" min="-2" pref="67" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jTextField16" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextField19" alignment="0" min="-2" pref="91" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jTextField14" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                                                  <Component id="charClass" alignment="1" min="-2" pref="142" max="-2" attributes="0"/>
+                                                                  <Component id="charName" min="-2" pref="142" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Component id="charRace" alignment="0" min="-2" pref="142" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                                          <Component id="charWeapon" min="-2" pref="131" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="jTextField20" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                                                              <Component id="jTextField25" alignment="0" min="-2" pref="68" max="-2" attributes="0"/>
+                                                              <Component id="jTextField18" alignment="0" min="-2" pref="73" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                                          <Component id="charProf" min="-2" pref="131" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                                          <Component id="maxHP" min="-2" pref="131" max="-2" attributes="0"/>
+                                                      </Group>
                                                   </Group>
                                               </Group>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                  <Group type="102" attributes="0">
-                                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                                      <Component id="classDEX" max="32767" attributes="0"/>
-                                                  </Group>
-                                                  <Component id="jTextField42" min="-2" pref="77" max="-2" attributes="0"/>
-                                              </Group>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="1" attributes="0">
-                                                  <Component id="jTextField44" min="-2" pref="85" max="-2" attributes="0"/>
-                                                  <Component id="classCON" min="-2" pref="67" max="-2" attributes="0"/>
-                                              </Group>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="jTextField46" min="-2" pref="77" max="-2" attributes="0"/>
-                                                  <Group type="102" attributes="0">
-                                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                                      <Component id="classINT" min="-2" pref="67" max="-2" attributes="0"/>
-                                                  </Group>
-                                              </Group>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="jTextField48" min="-2" pref="77" max="-2" attributes="0"/>
-                                                  <Group type="102" attributes="0">
-                                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                                      <Component id="classWIS" min="-2" pref="67" max="-2" attributes="0"/>
+                                              <Component id="jTextField15" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                                              <Component id="jTextField17" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="charArmor" min="-2" pref="125" max="-2" attributes="0"/>
+                                                              <Component id="classSProff" max="32767" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="jTextField23" min="-2" pref="79" max="-2" attributes="0"/>
+                                                              <Component id="jTextField43" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                                                              <Component id="jTextField31" alignment="0" min="-2" pref="95" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                      </Group>
                                                   </Group>
                                               </Group>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" attributes="0">
-                                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                                      <Component id="classCHA" min="-2" pref="67" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                                  <Component id="jTextField49" min="-2" pref="117" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="charSpeed" min="-2" pref="105" max="-2" attributes="0"/>
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jTextField41" alignment="0" min="-2" pref="77" max="-2" attributes="0"/>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                                          <Component id="classSTR" min="-2" pref="67" max="-2" attributes="0"/>
+                                                      </Group>
                                                   </Group>
-                                                  <Component id="jTextField53" min="-2" pref="89" max="-2" attributes="0"/>
-                                                  <Component id="charLang" alignment="0" min="-2" pref="106" max="-2" attributes="0"/>
-                                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                                      <Component id="jTextField54" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="jTextField50" alignment="0" pref="77" max="32767" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                                          <Component id="classDEX" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <Component id="jTextField42" pref="77" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jTextField44" min="-2" pref="85" max="-2" attributes="0"/>
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                                          <Component id="classCON" min="-2" pref="75" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jTextField46" min="-2" pref="77" max="-2" attributes="0"/>
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                                          <Component id="classINT" min="-2" pref="67" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jTextField13" min="-2" pref="77" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                                          <Component id="DEXMod" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <Component id="jTextField55" min="-2" pref="77" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="jTextField56" min="-2" pref="85" max="-2" attributes="0"/>
+                                                      <Component id="CONMod" min="-2" pref="75" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="jTextField57" max="32767" attributes="0"/>
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="0" pref="10" max="32767" attributes="0"/>
+                                                          <Component id="INTMod" min="-2" pref="67" max="-2" attributes="0"/>
+                                                      </Group>
                                                   </Group>
                                               </Group>
                                           </Group>
-                                          <Group type="102" attributes="0">
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <Group type="103" groupAlignment="0" attributes="0">
-                                                          <Component id="jTextField14" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
-                                                          <Group type="102" attributes="0">
-                                                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                                                      <Component id="charClass" alignment="1" min="-2" pref="142" max="-2" attributes="0"/>
-                                                                      <Component id="charName" min="-2" pref="142" max="-2" attributes="0"/>
-                                                                  </Group>
-                                                                  <Component id="charRace" alignment="0" min="-2" pref="142" max="-2" attributes="0"/>
-                                                              </Group>
-                                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Component id="jTextField48" max="32767" attributes="0"/>
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                                          <Component id="classWIS" min="-2" pref="67" max="-2" attributes="0"/>
                                                       </Group>
-                                                      <Group type="103" groupAlignment="0" attributes="0">
-                                                          <Group type="102" attributes="0">
-                                                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                                                              <Component id="charWeapon" min="-2" pref="131" max="-2" attributes="0"/>
-                                                          </Group>
-                                                          <Group type="102" alignment="0" attributes="0">
-                                                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
-                                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                                  <Component id="jTextField20" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
-                                                                  <Component id="jTextField25" alignment="0" min="-2" pref="68" max="-2" attributes="0"/>
-                                                                  <Component id="jTextField18" alignment="0" min="-2" pref="73" max="-2" attributes="0"/>
-                                                              </Group>
-                                                          </Group>
-                                                          <Group type="102" attributes="0">
-                                                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                                                              <Component id="charProf" min="-2" pref="131" max="-2" attributes="0"/>
-                                                          </Group>
-                                                          <Group type="102" alignment="1" attributes="0">
-                                                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                                                              <Component id="maxHP" min="-2" pref="131" max="-2" attributes="0"/>
-                                                          </Group>
-                                                      </Group>
+                                                      <Component id="jTextField58" alignment="0" max="32767" attributes="0"/>
                                                   </Group>
-                                                  <Component id="jTextField15" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
-                                                  <Component id="jTextField17" alignment="0" min="-2" pref="76" max="-2" attributes="0"/>
                                               </Group>
-                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Group type="102" attributes="0">
-                                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="0" attributes="0">
-                                                          <Group type="102" alignment="0" attributes="0">
-                                                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                                  <Component id="charArmor" min="-2" pref="125" max="-2" attributes="0"/>
-                                                                  <Component id="classSProff" max="32767" attributes="0"/>
-                                                              </Group>
-                                                          </Group>
-                                                          <Group type="102" attributes="0">
-                                                              <Group type="103" groupAlignment="0" attributes="0">
-                                                                  <Component id="jTextField23" min="-2" pref="79" max="-2" attributes="0"/>
-                                                                  <Component id="jTextField43" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
-                                                                  <Component id="jTextField31" alignment="0" min="-2" pref="95" max="-2" attributes="0"/>
-                                                              </Group>
-                                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                                          </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                                  <Component id="WISMod" min="-2" pref="67" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jTextField53" min="-2" pref="89" max="-2" attributes="0"/>
+                                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                  <Component id="jTextField54" alignment="0" max="32767" attributes="0"/>
+                                                  <Component id="jTextField50" alignment="0" pref="77" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Component id="charLang" alignment="0" min="-2" pref="179" max="-2" attributes="0"/>
+                                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                                  <Component id="CHAMod" alignment="1" min="-2" pref="67" max="-2" attributes="0"/>
+                                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                      <Component id="jTextField59" alignment="0" max="32767" attributes="0"/>
+                                                      <Group type="102" attributes="0">
+                                                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                                          <Component id="classCHA" min="-2" pref="67" max="-2" attributes="0"/>
                                                       </Group>
-                                                  </Group>
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                                                      <Component id="jTextField49" min="-2" pref="117" max="-2" attributes="0"/>
-                                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                                      <Component id="charSpeed" min="-2" pref="105" max="-2" attributes="0"/>
-                                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                                   </Group>
                                               </Group>
                                           </Group>
                                       </Group>
-                                      <Component id="jTextField22" alignment="1" min="-2" pref="772" max="-2" attributes="0"/>
                                   </Group>
                                   <Component id="jTextField21" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jTextField22" alignment="1" min="-2" pref="772" max="-2" attributes="0"/>
+                                          <Component id="STRMod" min="-2" pref="67" max="-2" attributes="0"/>
+                                          <Component id="charSpells" min="-2" pref="772" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
                               </Group>
                               <EmptySpace pref="55" max="32767" attributes="0"/>
                           </Group>
@@ -1825,15 +1875,33 @@
                                   <Component id="classWIS" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="classCHA" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTextField13" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField55" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField56" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField57" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField58" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField59" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="STRMod" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="DEXMod" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CONMod" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="INTMod" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="WISMod" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CHAMod" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="jTextField19" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="charSpells" min="-2" pref="41" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Component id="jTextField21" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jTextField22" min="-2" pref="42" max="-2" attributes="0"/>
-                              <EmptySpace pref="555" max="32767" attributes="0"/>
+                              <EmptySpace pref="549" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -2052,6 +2120,69 @@
                       </Properties>
                     </Component>
                     <Component class="javax.swing.JTextField" name="charSpeed">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jTextField13">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="STR Mod"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jTextField55">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="DEX Mod"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jTextField56">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="CON Mod"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jTextField57">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="INT Mod"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jTextField58">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="WIS Mod"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="jTextField59">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="CHA Mod"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="STRMod">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="DEXMod">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="CONMod">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="INTMod">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="INTModActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="WISMod">
+                      <Properties>
+                        <Property name="editable" type="boolean" value="false"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JTextField" name="CHAMod">
                       <Properties>
                         <Property name="editable" type="boolean" value="false"/>
                       </Properties>
